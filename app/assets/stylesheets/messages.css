@@ -64,10 +64,79 @@
   height: calc(100vh - 100px - 90px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.upper-message{
+  display: flex;
+}
+
+.message-user {
+  font-size: 16px;
+  color: #434a54;
+}
+
+.message-date {
+  font-size: 12px;
+  padding-left: 10px;
+  color: #999;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  font-size: 14px;
+  margin-bottom: 40px;
+  color: #434a54;
 }
 
 .form {
   height: 90px;
-  background-color: #DDDDDD;
   padding: 20px 40px;
+  background-color: #DDDDDD;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.form-input {
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+  margin-left: 15px;
+  border: none;
+}
+
+.form-image {
+  background-color: lightblue;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+}
+
+.hidden {
+  display: none;
 }
